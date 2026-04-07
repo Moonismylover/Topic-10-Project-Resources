@@ -34,6 +34,7 @@
             // 
             // imgmario_1
             // 
+            this.imgmario_1.Cursor = System.Windows.Forms.Cursors.Hand;
             this.imgmario_1.Image = global::Topic_10___Project_Resources.Properties.Resources.Mario_1;
             this.imgmario_1.Location = new System.Drawing.Point(236, 47);
             this.imgmario_1.Name = "imgmario_1";
