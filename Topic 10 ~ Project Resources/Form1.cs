@@ -16,5 +16,10 @@ namespace Topic_10___Project_Resources
         {
             InitializeComponent();
         }
+
+        private void imgmario_1_Click(object sender, EventArgs e)
+        {
+            imgmario_1.Image = Properties.Resources.Mario_2;
+        }
     }
 }
