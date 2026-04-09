@@ -43,6 +43,8 @@
             this.imgmario_1.TabIndex = 0;
             this.imgmario_1.TabStop = false;
             this.imgmario_1.Click += new System.EventHandler(this.imgmario_1_Click);
+            this.imgmario_1.MouseEnter += new System.EventHandler(this.imgmario_1_Click);
+            this.imgmario_1.MouseLeave += new System.EventHandler(this.imgmario_1_Click);
             // 
             // MainForm
             // 

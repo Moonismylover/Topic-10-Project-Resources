@@ -12,6 +12,7 @@ namespace Topic_10___Project_Resources
 {
     public partial class MainForm : Form
     {
+        Random generator = new Random();
         public MainForm()
         {
             InitializeComponent();
@@ -19,7 +20,21 @@ namespace Topic_10___Project_Resources
 
         private void imgmario_1_Click(object sender, EventArgs e)
         {
-            imgmario_1.Image = Properties.Resources.Mario_2;
+
+            this.Cursor = Cursors.Arrow;
+
+            int randomNumber = generator.Next(5);
+
+            if (randomNumber == 2)
+            {
+                imgmario_1.Image = Properties.Resources.Mario_3;
+            }
+            else
+            {
+                imgmario_1.Image = Properties.Resources.Mario_2;
+            }
+
+
         }
     }
 }

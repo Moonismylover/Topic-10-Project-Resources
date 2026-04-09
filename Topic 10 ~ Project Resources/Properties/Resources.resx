@@ -124,6 +124,9 @@
   <data name="Mario_2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Mario_2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Mario_3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Mario_3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Sheep" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Sheep.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
